@@ -27,8 +27,37 @@
   </head>
   <body>
     <!-- ===============HEADER ================= -->
-    <header>
-      <h1 class="text-center">Hello World</h1>
+    <header class="site-header" role="banner">
+      <!-- Navbar -->
+      <div class="navbar-wrapper">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button 
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle Navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a href="/" class="navbar-brand">
+                <img src="assets/img/logo.png" alt="Bootstrap WordPress">
+              </a>
+            </div><!-- navbar header -->
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/resources">Resources</a></li>
+                <li><a href="/contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div><!-- navbar-wrapper -->
     </header>
 
     <!-- =================== HERO ================== -->
