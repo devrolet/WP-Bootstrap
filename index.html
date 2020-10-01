@@ -96,23 +96,45 @@
     </section>
 
     <!-- =================== OPT IN SECTION ================== -->
-    <section>
+    <section id="optin">
       <div class="container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed tempus dui. Mauris rutrum sagittis arcu ut consectetur. Morbi iaculis eu felis ut aliquam. Phasellus urna nunc, suscipit vitae convallis ac, vulputate id diam. Sed semper a justo ac gravida. Sed luctus vestibulum sem, ac vestibulum magna ultricies in. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis tellus dui, vitae ullamcorper mauris facilisis eget. Praesent est urna, auctor ac dolor non, ornare vehicula arcu. Nam ullamcorper leo eros. Mauris vel fringilla ex, ut molestie libero. Nam et laoreet enim. Quisque vitae diam facilisis nisi laoreet consectetur non a libero. Sed vulputate orci sed dapibus vehicula. Aenean ac tempor purus. Mauris eu augue ullamcorper, vestibulum risus pulvinar, tempus metus.
-
-        Phasellus luctus tortor vel libero blandit, egestas tincidunt ligula bibendum. Nam facilisis molestie justo. Vivamus eget rhoncus nibh. Suspendisse consectetur vel erat eget tincidunt. Curabitur ut ligula a arcu fringilla bibendum ac sit amet enim. In iaculis mauris sem, in tempor sapien molestie sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget neque vitae elit feugiat maximus. Nam vitae mi faucibus, tristique turpis at, dapibus purus. Pellentesque magna diam, tincidunt in libero vel, sodales laoreet ipsum. Donec in mi sed mi lobortis fringilla. In ultrices nulla vel ex placerat, et venenatis arcu efficitur.
-          
-        Vivamus faucibus diam non purus dapibus cursus. Nulla scelerisque sem ac ante auctor, eu commodo lorem porta. Praesent in ornare turpis. Pellentesque non leo libero. Mauris laoreet, dui rhoncus dictum tristique, orci augue efficitur eros, sed dapibus orci ex et sem. Donec interdum malesuada commodo. Integer interdum eleifend eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce risus felis, faucibus vitae mauris non, elementum pretium magna. Duis sagittis urna vitae cursus porttitor. Integer nec sem eget velit aliquet sodales at et nisl. Nunc vel blandit ligula. Nulla ultrices mauris eros, nec tempus lorem pulvinar vitae. Aenean consectetur leo ut quam rutrum, ut congue nulla convallis.
-          
-        Integer at enim nisl. Curabitur nec luctus dui, nec hendrerit risus. In sit amet iaculis risus, vitae convallis ex. Duis tempor sed nisi ut volutpat. Cras in felis euismod, porttitor risus ut, varius libero. Donec ullamcorper dolor sit amet orci hendrerit consectetur. Praesent sed purus lorem. Aliquam at mauris a tellus rhoncus pellentesque. Integer a dapibus libero. Aenean a nibh vel ex tristique pellentesque. Duis in sapien hendrerit felis ultrices facilisis.
-          
-        Sed porta libero in mi vehicula, sed luctus lorem finibus. Morbi nec eros cursus, congue velit vitae, sodales felis. Aenean sagittis leo nibh, sed mollis turpis hendrerit sed. Praesent tristique ipsum nec orci maximus, sed interdum erat viverra. Pellentesque orci arcu, fringilla scelerisque enim id, molestie luctus ex. Nulla facilisi. Proin laoreet est ante, a posuere turpis dapibus id. Suspendisse mi tortor, facilisis id ullamcorper ut, egestas vitae enim. Curabitur sollicitudin nisl id tortor euismod, vitae elementum dolor semper. Nam varius turpis nec turpis rhoncus, ut condimentum mi convallis.</p>
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="lead"><strong>Subscribe to our mailing list</strong> We'll send something special as a thank you.</div>
+          </div>
+          <div class="col-sm-4">
+            <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">
+              Click here to subscribe
+            </button>
+          </div>
         </div>
+      </div><!-- container -->
     </section>
 
     <!-- =================== BOOST YOUR INCOME ================== -->
-    <section>
-
+    <section id="boost-income">
+      <div class="container">
+        <div class="section-header">
+          <img src="assets/img/icon-boost.png" alt="Chart">
+          <h2>How You Can Boost Your Income</h2>
+        </div>
+        <p class="lead">
+          Whether you’re a freelance designer, entrepreneur, employee for a company, code hobbyist, or looking for a new career — this course gives you an immensely valuable skill that will enable you to either:
+        </p>
+        <div class="class">
+          <div class="col-sm-6">
+            <h3>Make money on the side</h3>
+            <p>So you can save up for that Hawaiian vacation you’ve been wanting, help pay off your debt, your car, your mortgage, or simply just to have bonus cash laying around.
+            </p>
+          </div>
+          <div class="col-sm-6">
+            <h3>Create a full-time income</h3>
+            <p>
+              WordPress developers have options. Many developers make a generous living off of creating custom WordPress themes and selling them on websites like ThemeForest. Freelance designers and developers can also take on WordPress projects and make an extra $1,000 - $5,000+ per month.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- =================== WHO BENEFITS ================== -->
@@ -156,9 +178,37 @@
     </footer>
 
     <!-- =================== MODAL ================== -->
-    <div>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel"><i class="fa fa-envelope"></i> Subscribe to our Mailing List</h4>
+          </div>
+          <div class="modal-body">
+            <p>Simply enter your name and email! As a thank you for joining us, we're going to give you one of our best selling courses, <em>for free!</em></p>
 
-    </div>
+            <form class="form-inline" role="form">
+              <div class="form-group">
+                <label class="sr-only" for="subscribe-name">Your First Name</label>
+                <input type="text" class="form-control" id="subscribe-name" placeholder="Your first name">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="subscribe-email">and your email</label>
+                <input type="text" class="form-control" id="subscribe-email" placeholder="and your email">
+              </div>
+              <input type="submit" class="btn btn-danger">
+              <hr>
+              <p>By providing your email you consent to receiving occasional promotional emails &amp; newsletters. <br>No Spam. Just good stuff. We respect your privacy &amp; you may unsubscribe at any time.</p>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

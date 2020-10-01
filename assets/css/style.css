@@ -37,6 +37,12 @@ h4 {
   font-size: 18px;
 }
 
+button, input, .btn, a.btn {
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
 .btn {
   font-weight: bold;
 }
@@ -44,6 +50,10 @@ h4 {
 .btn-danger {
   background-color: #dd5638;
   border-collapse: #d95131;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* HERO SECTION */
@@ -112,3 +122,35 @@ h4 {
   font-weight: bold;
   display: block;
 }
+
+/* LAYOUT STYLES */
+section {
+  padding: 80px 0;
+}
+
+.section-header {
+  text-align: center;
+}
+
+section h2 {
+  margin: 20px 0 40px;
+}
+
+section h3 {
+  margin: 30px 0 10px;
+}
+
+#optin {
+  background: #3e4249;
+  padding: 20px 0;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 1.2em;
+}
+
+#optin p {
+  margin: 7px 0 0 0;
+}
+
+
